@@ -1,0 +1,39 @@
+.day-list {
+    display: flex;
+    padding: 0.5rem 0;
+    gap: 0.25rem;
+    overflow-x: auto;
+}
+
+.day {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #f1f5f9;
+    border-radius: 0.25rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .day-list {
+        flex-direction: column;
+    }
+}
+
+.current-day {
+    background-color: #f1f5f9;
+    border: 1px solid #cbd5e1;
+}
+
+.loader {
+    border: 0.325rem solid #f3f3f3;
+    border-top: 0.325rem solid #3498db;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
