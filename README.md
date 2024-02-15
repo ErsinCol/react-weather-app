@@ -1,8 +1,14 @@
-# React + Vite
+# React-Weather-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application allows you to view a weekly weather forecast for all cities in Turkey.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Users can access the weather forecast for a different city through a dropdown menu.
+- The forecast covers the upcoming week starting from the current day.
+- Upon initial page load, the user's location is requested to show the weather information for their city by default.
+- The current day is highlighted with a background and border.
+- Each day card displays the day name, weather condition image (sunny, rainy, snowy, partly cloudy), and the highest and lowest temperatures.
+
+https://github.com/ErsinCol/react-weather-app/assets/92751521/a4b92ca1-2539-4a58-9ab8-a8b8821ce316
+
